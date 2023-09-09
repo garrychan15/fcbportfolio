@@ -1,0 +1,36 @@
+/* Universal Selector */
+* {
+	font-family: Roboto, sans-serif;
+	text-align: center;
+}
+
+h1, p {
+	font-family: Montserrat, sans-serif;
+	color: black;
+}
+/*ID selector*/
+#profile {
+/*	pixels are absolute value. it won't be responsive*/
+	height: 300px;
+	width: 300px;
+
+	border-radius: 50%;
+}
+
+body {
+	background-color: #F8CBAD;
+	
+	/*	fixed = it will be fixed no matter if you zoom in or out the webpage*/
+
+}
+
+#landing {
+
+	height: 80vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
